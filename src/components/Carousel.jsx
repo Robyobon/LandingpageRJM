@@ -23,8 +23,8 @@ const BannerSlider = () => {
   };
 
   return (
-    <div className='flex relative  desktop:mr-[-100px] smartphone:bottom-16 smartphone:ml-16'>
-      <div className='w-[840px]'>
+    <div className='flex relative  desktop:mr-[-100px] smartphone:bottom-20'>
+      <div className='w-[840px] smartphone:w-full'>
         {/* Slider di sini */}
         <Slider {...settings}>
           <div className='slider-item'>

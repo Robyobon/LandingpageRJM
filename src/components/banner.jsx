@@ -8,10 +8,10 @@ import background from "../assets/Background.png";
 
 function Banner() {
   return (
-    <section className="home h-full w-full tablet:flex desktop:flex items-center justify-between  bg-cover desktop:mt-[-60px]   " 
+    <section className="home h-full w-full tablet:flex desktop:flex items-center justify-between  bg-cover  desktop:mt-[-60px]   " 
     style={{ backgroundImage: `url(${background})` }}>
-      <div className="text-left  smartphone:text-center desktop:ml-[100px] desktop:mr-[-200px] ">
-        <div className="relative top-[-120px] smartphone:pt-40">
+      <div className="text-left  smartphone:text-center desktop:ml-[100px] desktop:mr-[-200px]  smartphone:pt-40">
+        <div className="relative top-[-120px]">
           <h1 className="text-8xl font-bold text-[#F8D100] smartphone:text-6xl">RJM</h1>
           <p className="text-2xl font-normal smartphone:text-sm text-white">RIAN JAYA MOTOR</p>
         </div>
@@ -35,12 +35,12 @@ function Banner() {
             </motion.span>
           </motion.h1>
         </div>
-        <div className="relative bottom-16">
+        <div className="relative bottom-20">
           <button className="border border-[#F8D100] shadow-lg shadow-yellow-500/50 text-white py-2 px-2 rounded bg-transparent hover:bg-[#F8D100] hover:text-[#545454]">
             <Link to="/catalog">BELI SEKARANG</Link>
           </button>
         </div>
-        <div className="flex space-x-6 smartphone:mt-[-32px] smartphone:justify-center">
+        <div className="flex space-x-6 smartphone:mt-[-60px] smartphone:justify-center pt-[-30px] smartphone:mb-16  ">
           <a href="https://www.instagram.com/gojo_mb?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noopener noreferrer">
             <FaInstagram size={40} className="icon"/>
           </a>
