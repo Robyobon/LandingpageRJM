@@ -8,10 +8,10 @@ import background from "../assets/Background.png";
 
 function Banner() {
   return (
-    <section className="home h-full w-full tablet:flex desktop:flex items-center justify-between  bg-cover    " 
+    <section className="home h-full w-full tablet:flex desktop:flex items-center justify-between  bg-cover desktop:mt-[-60px]   " 
     style={{ backgroundImage: `url(${background})` }}>
       <div className="text-left  smartphone:text-center desktop:ml-[100px] desktop:mr-[-200px] ">
-        <div className="relative top-[-120px] pt-40">
+        <div className="relative top-[-120px] smartphone:pt-40">
           <h1 className="text-8xl font-bold text-[#F8D100] smartphone:text-6xl">RJM</h1>
           <p className="text-2xl font-normal smartphone:text-sm text-white">RIAN JAYA MOTOR</p>
         </div>
